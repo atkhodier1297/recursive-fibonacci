@@ -22,3 +22,7 @@ function recursiveFib(n){
 console.log(recursiveFib(0))
 console.log(recursiveFib(1))
 console.log(recursiveFib(6))
+
+// Recursive solution is not great for the fib seq problem.
+// Iterative solution is much more efficient.
+// Big O === O(2^n) pretty terrible performance
